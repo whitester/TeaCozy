@@ -1,0 +1,41 @@
+/* page styling */ 
+
+body{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+a{
+    text-decoration: underline;
+    color: seashell;
+    padding-left: 20px;
+}
+
+/* header styling */
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    height: 69px;
+    width: 100%;
+    border-bottom: solid 1px seashell;
+}
+
+.tea-cozy-logo {
+    display: flex;
+    flex-grow: 1;
+}
+
+.tea-cozy-logo img{
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav{
+    padding-right: 30px;
+}
