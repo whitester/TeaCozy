@@ -14,6 +14,10 @@ a{
     padding-left: 20px;
 }
 
+span{
+    background-color: black;
+}
+
 /* header styling */
 
 header{
@@ -38,4 +42,26 @@ header{
 
 nav{
     padding-right: 30px;
+}
+
+/* mission section styling */
+
+.mission{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.background.image{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
 }
