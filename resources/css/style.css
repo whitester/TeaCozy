@@ -19,7 +19,7 @@ span{
     background-color: black;
 }
 
-p{
+p, h1, h5{
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ header{
 
 .tea-cozy-logo img{
     height: 50px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 nav{
@@ -124,7 +124,7 @@ nav{
 }
 
 .location h2{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .branches{
@@ -141,4 +141,17 @@ nav{
     background-color: black;
     margin: 15px 20px 0px 20px;
     opacity: 1;
+}
+
+/* contacts section styling */
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.footer p{
+    margin-left: 20px;
+    text-align: left;
 }
